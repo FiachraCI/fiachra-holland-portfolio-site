@@ -51,6 +51,40 @@ nav {
     align-items: center;
 }
 
+/* ------------------------------Landing Page */
+
+.landing {
+    background-color: #1e2328;
+    height: 100vh;
+}
+
+.landing h1 {
+    color: #f5b301;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.landing p {
+    color: #fafafa;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.hero-image {
+    background: url(../images/—Pngtree—successful\ people\ business\ elite\ financial_3784064.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
 /* ------------------------------General paddings/margins & texts */
 
 .uppercase {
@@ -74,12 +108,17 @@ p {
     display: inline-block;
 }
 
+section h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+
 /* ------------------------------Footer */
 
 footer {
     background-color: #1e2328;
     color: #fafafa;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     text-align: center;
 }
