@@ -10,11 +10,13 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
+    min-height: auto;
 }
 
 .navbar-brand {
     font-family: "Lobster",sans-serif;
     color: #fafafa;
+    font-size: xx-large;
     padding-left: 50px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -27,7 +29,7 @@ nav {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 8px;
+    font-size: x-small;
     font-weight: 200;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -47,4 +49,29 @@ nav {
 
 .navbar-brand:hover {
     color: #f5b301;
+}
+
+/* ------------------------------General paddings/margins & texts */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.footer-heading {
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: "Quattrocento",sans-serif;
 }
