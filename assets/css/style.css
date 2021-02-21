@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Poppins:wght@100;200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------Navbar */
+nav {
+    background-color: #1e2328;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: "Lobster",sans-serif;
+    color: #fafafa;
+    padding-left: 50px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.nav-item a {
+    color: #fafafa;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 8px;
+    font-weight: 200;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.navbar-nav {
+    /* Bug 1 solution */
+    align-items: center;
+}
+
+/* ------------------------------Hover Effects */
+
+.nav-item a:hover {
+    color: #f5b301;
+}
+
+.navbar-brand:hover {
+    color: #f5b301;
+}
