@@ -10,59 +10,81 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">Fiachra Holland</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Burger">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="Burger">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" target="_blank">CV</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Fiachra Holland</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Burger">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="Burger">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" target="_blank">CV</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Landing Page/Home -->
     <section class="container-fluid">
         <div class="row landing">
+            <div class="col hero-image"></div>
             <div class="col-lg-8">
                 <h1>Hello World.</h1>
                 <p>My name is Fiachra, I am a full stack software developer based in Ireland.</p>
-                <a class="btn" href="#" role="button">Get in touch!</a>
+                <a class="btn" href="#contact" role="button">Get in touch!</a>
             </div>
-            <div class="col hero-image"></div>
         </div>
     </section>
 
     <!-- About -->
-    <section>
-        <h1>About</h1>
-        
+    <section class="container-fluid about" id="about">
+        <div class="row">
+            <div class="col-12 col-xl-4">
+                <h1 class="uppercase">Bio</h1>
+                <div>
+                    <p>I am a full stack software developer based in Ireland. I earned my chops with the <a href="#">Code Institute.</a>
+                        You can see some information about Code Institute and why you should hire one of their awesome alumnis <a href="#">here.</a>
+                        I have lived and travelled abroad extensively. I garnered vastly different life and work experiences along the way & I also learned
+                        various languages to varying degrees of fluency. I returned home to Ireland after my travels and decided it was time to embark on a career.
+                        My love for spoken languages inspired me to learn the langauge of computers and embark on a career in software development.
+                    </p>
+                    <p>P.S - I am a big advocate of leaving the world better off than when I came into it. So, if you are browsing here from a charitable or non-profit organization with
+                        a lower budget (or perhaps no budget at all) please dont' hesitate to get in touch. I am happy to devote some spare time to good causes.</p>
+                </div>
+            </div>
+            <div class="col-12 col-xl-8">
+                <h1 class="uppercase">What do I do?</h1>
+                <p>I am fluent in the 3 main front end languages: HTML 5, CSS3 & Javascript. I am also fluent in Python. I am able to build
+                    sites from scratch or by using frameworks such as Bootstrap and Django. All of my projects are built to be responsive across all
+                    devices, fast loading and elegant.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Projects -->
-    <section>
+    <section class="container-fluid projects" id="projects">
         <h1>Projects</h1>
     </section>
 
     <!-- Contact -->
-    <section>
+    <section class="container-fluid contact" id="contact">
         <h1>Contact</h1>
     </section>
     
@@ -75,32 +97,32 @@
             </div>
             <div class="col-sm-4">
                 <h5 class="footer-heading uppercase">Social</h5>
-                <ul class="list-inline social-links row">
-                    <li class="list-inline-item col-md-3 col-lg-2">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook.</span>
                         </a>
                     </li>
-                    <li class="list-inline-item col-md-3 col-lg-2">
+                    <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram.</span>
                         </a>
                     </li>
-                    <li class="list-inline-item col-md-3 col-lg-2">
+                    <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter.</span>
                         </a>
                     </li>
-                    <li class="list-inline-item col-md-3 col-lg-2">
+                    <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-github" aria-hidden="true"></i>
                             <span class="sr-only">Github</span>
                         </a>
                     </li>
-                    <li class="list-inline-item col-md-3 col-lg-2">
+                    <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">Linkedin.</span>
