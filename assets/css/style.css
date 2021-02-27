@@ -55,7 +55,7 @@ nav {
 
 .landing {
     background-color: #1e2328;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .landing h1 {
@@ -69,6 +69,7 @@ nav {
     color: #fafafa;
     text-align: center;
     padding-top: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .hero-image {
@@ -78,10 +79,34 @@ nav {
     background-size: cover;
     min-height: 400px;
     width: 400px;
+    margin-top: 2rem;
+    overflow: visible;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+}
+
+.landing .btn {
+    text-decoration: none;
+    color: #fafafa;
+    background-color: #f5b301;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 2.5rem auto;
+    padding: 0 auto;
+    width: 8rem;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.landing .btn:hover {
+    background-color: #fafafa;
+    color: #f5b301;
 }
 
 
@@ -118,7 +143,6 @@ section h1 {
 footer {
     background-color: #1e2328;
     color: #fafafa;
-    position: absolute;
     bottom: 0;
     text-align: center;
 }
@@ -146,7 +170,7 @@ footer {
 }
 
 .social-links li a i {
-    padding: 0px 25px;
+    padding: 0px 10px;
     font-size: 25px;
     color: #fafafa;
     transition: all .5s ease-in-out;
@@ -163,8 +187,6 @@ li.list-inline-item.col-md-3.col-lg-2 {
     padding: 15px;
 }
 
-
-
-
-
-    
+p.inline-block {
+    padding: 0px 30px;
+}
