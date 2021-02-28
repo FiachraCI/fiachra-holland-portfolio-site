@@ -39,6 +39,15 @@ section h1 {
     padding-top: 65px;
     color: #fafafa; 
 }
+
+section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 /* ------------------------------Navbar */
 
 header {
@@ -99,7 +108,6 @@ nav button i {
 /* ------------------------------Landing Page */
 
 .landing {
-    background-color: #1e2328;
     min-height: 100vh;
 }
 
@@ -107,7 +115,6 @@ nav button i {
     color: #f5b301;
     font-size: 60px;
     text-align: center;
-    /* padding-top: 25%; */
 }
 
 .landing p {
@@ -121,7 +128,7 @@ nav button i {
     background: url(../images/—Pngtree—successful\ people\ business\ elite\ financial_3784064.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 400px;
     width: 400px;
     margin-top: 2rem;
@@ -170,27 +177,58 @@ nav button i {
 .about h1 {
     color: #fafafa;
     letter-spacing: 3px;
-        margin-top: 35px;
+    margin-top: 35px;
+    margin-bottom: 1.3rem;
 }
 
 .about p{
     color: #ffffff;
     font-size: 1.3rem;
-    padding: 2.5rem;
+    padding: 0 50px;
+}
+
+.about p a {
+    text-decoration: none;
+    color: #f5b301;
+}
+
+/* ------------------------------Language Levels */
+
+.progress {
+    position: relative;
+    height: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    opacity: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: rgba(3, 3, 3, 0.2);
+    border: 1px solid rgba(245,179,1, 0.2) ;
+}
+
+.progress-bar {
+    background-color: #f5b301;
+}
+
+.language-name {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fafafa;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
 }
 
 /* ------------------------------Projects */
 
 .projects {
     min-height: 100vh;
-    background-color: #1e2328;
 }
 
 /* ------------------------------Contact */
 
 .contact {
     min-height: 100vh;
-    background-color: #1e2328;
 }
 /* ------------------------------Footer */
 
@@ -234,4 +272,18 @@ footer {
 
 .social-links li a i:hover {
     color: #f5b301;
+}
+
+/* ------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .landing h1 {
+    margin-top: 12rem;
+}
+}
+
+@media(max-width: 600px) {
+    .about p {
+    padding: 2.5rem 0;
+}
 }
