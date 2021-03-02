@@ -7,6 +7,8 @@
 
 body {
     background-color: #1e2328;
+    height: 100vh;
+    
 }
 
 /* ------------------------------General paddings/margins & texts */
@@ -24,8 +26,9 @@ h6 {
     margin: 0;
 }
 
-p {
+section p {
     font-family: "Quattrocento",sans-serif;
+    color: #fafafa;
 }
 
 .inline-block {
@@ -36,7 +39,6 @@ section h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-align: center;
-    padding-top: 65px;
     color: #fafafa; 
 }
 
@@ -111,34 +113,21 @@ nav button i {
     min-height: 100vh;
 }
 
+.avatar {
+    height: 100%;
+    width: 100%;
+    margin-top: 8rem;
+}
+
 .landing h1 {
     color: #f5b301;
     font-size: 60px;
-    text-align: center;
 }
 
 .landing p {
     color: #fafafa;
-    text-align: center;
     padding-top: 25px;
     margin-bottom: 2.5rem;
-}
-
-.hero-image {
-    background: url(../images/—Pngtree—successful\ people\ business\ elite\ financial_3784064.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 400px;
-    width: 400px;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: visible;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
 }
 
 .landing .btn {
@@ -151,7 +140,7 @@ nav button i {
     padding: 0 auto;
     width: 8rem;
     white-space: nowrap;
-    font-family: "Quattrocento", sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
@@ -159,8 +148,7 @@ nav button i {
 }
 
 .landing .btn:hover {
-    background-color: #fafafa;
-    color: #f5b301;
+    background-color: #d49d06;
 }
 
 /* ------------------------------About */
@@ -192,6 +180,18 @@ nav button i {
     color: #f5b301;
 }
 
+.about hr {
+    width: 50px;
+    height: 4px;
+    color: #fafafa;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.bio {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* ------------------------------Language Levels */
 
 .progress {
@@ -219,16 +219,35 @@ nav button i {
     font-family: "Poppins",sans-serif;
 }
 
+#progress-top {
+    margin-top: 4rem;
+    margin-bottom: none;
+}
+
 /* ------------------------------Projects */
 
-.projects {
+#projects {
     min-height: 100vh;
 }
+
+.card {
+    margin-bottom: 2rem;
+}
+
+#projects h2 {
+    padding-top: 10rem;
+}
+
+
 
 /* ------------------------------Contact */
 
 .contact {
     min-height: 100vh;
+}
+
+.contact h1 {
+    padding-top: 10rem;
 }
 /* ------------------------------Footer */
 
