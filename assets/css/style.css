@@ -29,6 +29,7 @@ h6 {
 section p {
     font-family: "Quattrocento",sans-serif;
     color: #fafafa;
+    text-align: center;
 }
 
 .inline-block {
@@ -255,6 +256,7 @@ nav button i {
 /* .thumbnail {
     max-width: 50%;
 } */
+
 /* ------------------------------Contact */
 
 .contact {
@@ -357,6 +359,9 @@ footer {
     position: relative;
 }
 
+#confirmation .row {
+    margin-top: 50%;
+}
 
 /* ------------------------------Media Queries */
 
