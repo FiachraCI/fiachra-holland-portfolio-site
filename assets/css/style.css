@@ -39,7 +39,8 @@ section h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-align: center;
-    color: #fafafa; 
+    color: #fafafa;
+    padding-top: 8rem;
 }
 
 section h2 {
@@ -49,6 +50,10 @@ section h2 {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.full-height {
+    height: 100%;
 }
 /* ------------------------------Navbar */
 
@@ -111,6 +116,7 @@ nav button i {
 
 .landing {
     min-height: 100vh;
+    position: relative;
 }
 
 .avatar {
@@ -160,6 +166,7 @@ nav button i {
     background-size: cover;
     min-height: 100vh;
     background-attachment: fixed;
+    position: relative;
 }
 
 .about h1 {
@@ -172,7 +179,6 @@ nav button i {
 .about p{
     color: #ffffff;
     font-size: 1.3rem;
-    padding: 0 50px;
 }
 
 .about p a {
@@ -192,7 +198,7 @@ nav button i {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* ------------------------------Language Levels */
+/* ------------------------------(About contd.)Language Levels */
 
 .progress {
     position: relative;
@@ -228,26 +234,73 @@ nav button i {
 
 #projects {
     min-height: 100vh;
+    position: relative;
 }
 
 .card {
     margin-bottom: 2rem;
 }
 
+#card {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
 #projects h2 {
     padding-top: 10rem;
 }
 
-
-
+/* .thumbnail {
+    max-width: 50%;
+} */
 /* ------------------------------Contact */
 
 .contact {
     min-height: 100vh;
+    position: relative;
 }
 
-.contact h1 {
-    padding-top: 10rem;
+ .contact .col-md-8 {
+     align-items: center;
+ }
+
+form {
+ margin:0 auto;
+ background:#1e2328;
+ position:absolute;
+ left:50%;
+ top:50%;
+ transform: translate(-50%, -50%);
+}
+
+form input {
+    display: block;
+    margin-bottom: 3rem;
+    width: 25rem;
+}
+
+form textarea {
+    width: 25rem;
+    height: 8rem;
+}
+
+#contact .btn {
+    text-decoration: none;
+    color: #fafafa;
+    background-color: #f5b301;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 2.5rem auto;
+    padding: 0 auto;
+    width: 8rem;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
 }
 /* ------------------------------Footer */
 
@@ -293,16 +346,28 @@ footer {
     color: #f5b301;
 }
 
+/* ------------------------------Confirmation Page */
+
+#footer-confirmation {
+    position: fixed;
+    bottom: 0;
+}
+
+#confirmation {
+    position: relative;
+}
+
+
 /* ------------------------------Media Queries */
 
-@media(min-width: 992px) {
-    .landing h1 {
-    margin-top: 12rem;
+@media(min-width: 1200px) {
+    .about p {
+    padding: 0 50px;
 }
 }
 
-@media(max-width: 600px) {
-    .about p {
-    padding: 2.5rem 0;
-}
+@media(max-width: 767px) {
+    #projects .thumbnail {
+        padding: 0 50px;
+    }
 }

@@ -56,10 +56,11 @@
 
     <!-- About -->
     <section class="about" id="about">
+        <h1 class="uppercase">About</h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-xl-4 bio">
-                    <h1 class="uppercase">Bio</h1>
+                    <h2 class="uppercase">Bio</h2>
                     <div>
                         <p>I am a full stack software developer based in Ireland. I earned my chops with the <a href="https://codeinstitute.net/" target="_blank">Code Institute.</a>
                             You can see some information about Code Institute and why you should hire one of their awesome alumnis <a href="https://codeinstitute.net/employers/#section-advantages" target="_blank">here.</a>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-xl-8">
-                    <h1 class="uppercase">What do I do?</h1>
+                    <h2 class="uppercase">What do I do?</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus ratione corrupti incidunt illo dignissimos impedit esse provident, ipsam, quas inventore 
                         natus sapiente officiis at minus sunt? Minima dignissimos exercitationem corporis ut, eligendi quasi a hic harum vero natus dolore cum velit aliquid omnis necessitatibus, 
                         quia fugit maxime eum expedita temporibus fuga nam eaque cupiditate. Nostrum aut repudiandae iste provident excepturi nam, quaerat commodi vel! Facilis quisquam accusamus perferendis modi.
@@ -126,11 +127,51 @@
     </section>
 
     <!-- Projects -->
-    <section class="projects" id="projects">
-        <h1 class="mb-5 pt-5 uppercase">My Projects</h1>
+    <section class="projects uppercase" id="projects">
+            <h2 class="display-6">Projects</h2>
+            <div class="container-fluid">
+              <div class="row gy-5">
+                <div class="col-md-6">
+                  <img src="assets/images/markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="Project image 1" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="Project image 2" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="Project image 3" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="Project image 4" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/markus-spiske-WUehAgqO5hE-unsplash.jpg" alt="Project image 5" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/alexander-redl-d3bYmnZ0ank-unsplash.jpg" alt="Project image 6" class="img-fluid thumbnail" >
+                  <a href="#" class="btn btn-primary">View Website</a>
+                  <a href="#" class="btn btn-primary">View GitHub Repo</a>
+                </div>
+              </div>
+            </div>
+
+    </section>
+
+    <!-- <section class="projects" id="projects">
+        <h1 class="uppercase">My Projects</h1>
                 <div class="container-lg">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 text-center"><div class="card" style="width: 100%;">
+                    <div class="row" id="card">
+                        <div class="col-md-6 col-lg-4 text-center">
+                            <div class="card" style="width: 100%;">
                                 <img src="a#" class="card-img-top" alt="blog thumbnail 3">
                                 <div class="card-body">
                                     <h5 class="card-title">Fiachra Holland - Portfolio</h5>
@@ -191,21 +232,22 @@
                         </div>
                     </div>
                 </div>           
-    </section>
+    </section> -->
     
 
     <!-- Contact -->
     <section class="contact" id="contact">
+        <h1 class="uppercase">Contact</h1>
         <div class="container-lg">
-            <div class="row text-center">
-                <div class="col-md-8 col-lg-6 text-center">
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
                     <form>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="First name">
-                        <label for="fname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Last name">
-
+                        <input type="text" id="yourname" name="name" placeholder="Your name">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <textarea name="textarea" id="textarea" placeholder="Project description"></textarea>
+                        <a class="btn mt-5" href="confirmation.html" role="button">Submit</a>
                     </form>
+                    
                 </div>
             </div>
         </div>
