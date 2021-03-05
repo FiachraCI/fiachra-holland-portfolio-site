@@ -123,7 +123,7 @@ nav button i {
 .landing {
     min-height: 100vh;
     position: relative;
-    background-image: url(../images/shyam-vHVaUUJ7w-A-unsplash.jpg);
+    background-image: url(../images/shyam-vHVaUUJ7w-A-unsplash.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,6 +170,58 @@ nav button i {
     background-color: #d49d06;
 }
 
+
+
+/* This feature below was taken from the YouTuber "WEB CIFAR" and is referred to in the readme */
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid #fafafa;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid #fafafa;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+/* End of "WEB CIFAR'S code" */
+
 /* ------------------------------About */
 
 .about {
@@ -185,8 +237,6 @@ nav button i {
 .about h1 {
     color: #fafafa;
     letter-spacing: 3px;
-    /* margin-top: 35px; */
-    /* margin-bottom: 1.3rem; */
 }
 
 .about p{
@@ -290,12 +340,14 @@ nav button i {
 img.img-fluid.thumbnail {
     margin: 2rem auto;
     display: block;
+    min-width: 300px;
+    max-height: 153px;
 }
 
 /* ------------------------------Contact */
 
 .contact {
-    min-height: 100vh;
+    height: 100%;
     position: relative;
 }
 
@@ -343,8 +395,9 @@ form textarea {
 
 footer {
     color: #fafafa;
-    bottom: 0;
+    /* bottom: 0; */
     text-align: center;
+    position: sticky;
 }
 
 .footer-heading {
@@ -407,14 +460,8 @@ footer {
 }
 }
 
-@media(max-width: 767px) {
-    #projects .thumbnail {
-        padding: 0 50px;
+@media(min-width: 1200px) {
+    .projects {
+        padding: 0 75px;
     }
 }
-
-/* @media(min-width: 767px) {
-    img.avatar {
-    padding: 5rem;
-}
-} */
