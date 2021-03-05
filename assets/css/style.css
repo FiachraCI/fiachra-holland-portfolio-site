@@ -43,7 +43,7 @@ section h1 {
     padding-top: 8rem;
 }
 
-section h2 {
+section h2, h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #fafafa;
@@ -267,11 +267,10 @@ nav button i {
 .progress {
     position: relative;
     height: 1.2rem;
-    margin-bottom: 1rem;
     border-radius: 20px;
     opacity: 100%;
     max-width: 700px;
-    margin: 2rem auto;
+    margin: 1rem auto 2.5rem auto;
     background-color: rgba(3, 3, 3, 0.2);
     border: 1px solid rgba(245,179,1, 0.2) ;
 }
@@ -471,13 +470,13 @@ footer {
     form {
     width: 80%;
     margin: 0 auto;
+    position: absolute;
+    bottom: 5px;
 }
 }
 
 @media(max-width: 500px) {
     form input, form textarea {
-    /* display: block;
-    margin-bottom: 3rem; */
     width: 100%;
 }
 }
@@ -487,3 +486,16 @@ footer {
         padding-top: 0;
     }
 }
+
+@media(max-width: 350px) {
+    button.navbar-toggler {
+    margin: 0 auto;
+}
+}
+
+@media(max-width: 350px) {
+    #contact h1 {
+        padding-top: 6.5rem;
+    }
+}
+
