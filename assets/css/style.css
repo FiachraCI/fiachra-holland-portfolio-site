@@ -8,10 +8,9 @@
 body {
     background-color: #1e2328;
     height: 100vh;
-    
 }
 
-/* ------------------------------General paddings/margins & texts */
+/* ------------------------------General paddings/margins, texts and styles */
 
 .uppercase {
     text-transform: uppercase;
@@ -56,12 +55,18 @@ section h2 {
 .full-height {
     height: 100%;
 }
+
+.opaque-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 /* ------------------------------Navbar */
 
 header {
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
 }
 nav {
@@ -118,6 +123,12 @@ nav button i {
 .landing {
     min-height: 100vh;
     position: relative;
+    background-image: url(../images/shyam-vHVaUUJ7w-A-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
 }
 
 .avatar {
@@ -129,6 +140,7 @@ nav button i {
 .landing h1 {
     color: #f5b301;
     font-size: 60px;
+    margin-top: 7rem;
 }
 
 .landing p {
@@ -173,8 +185,8 @@ nav button i {
 .about h1 {
     color: #fafafa;
     letter-spacing: 3px;
-    margin-top: 35px;
-    margin-bottom: 1.3rem;
+    /* margin-top: 35px; */
+    /* margin-bottom: 1.3rem; */
 }
 
 .about p{
@@ -253,9 +265,32 @@ nav button i {
     padding-top: 10rem;
 }
 
-/* .thumbnail {
+.projects .btn {
+    text-decoration: none;
+    color: #fafafa;
+    background-color: #f5b301;
+    border-radius: 10px;
+    margin: 0 auto 2.5rem auto;
+    padding: 0 auto;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.projects .btn:hover {
+    background-color: #d49d06;
+}
+.thumbnail {
     max-width: 50%;
-} */
+}
+
+img.img-fluid.thumbnail {
+    margin: 2rem auto;
+    display: block;
+}
 
 /* ------------------------------Contact */
 
@@ -350,17 +385,18 @@ footer {
 
 /* ------------------------------Confirmation Page */
 
-#footer-confirmation {
+/* #footer-confirmation {
     position: fixed;
     bottom: 0;
-}
+} */
 
 #confirmation {
+    height: 100vh;
     position: relative;
 }
 
 #confirmation .row {
-    margin-top: 50%;
+    margin-top: 15%;
 }
 
 /* ------------------------------Media Queries */
@@ -376,3 +412,9 @@ footer {
         padding: 0 50px;
     }
 }
+
+/* @media(min-width: 767px) {
+    img.avatar {
+    padding: 5rem;
+}
+} */
