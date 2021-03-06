@@ -103,16 +103,18 @@ The _competitor interview_ with Mathieu Schatzler ultimately did not take place 
 
 ### **Wireframe Files**
 
-As this site is one continuous page, one wireframe mockup per device - small, medium & large was created.
-* ![Small Device]()
-* [Medium Device]()
-* [Large Device]()
+As this site is one continuous page, one wireframe mockup per device - small, medium & large was created. The deployed site varied in a number of ways
+from the wireframes. Throughout the project certain smaller aspects of the wireframes were found to be be not aesthetically pleasing, mainly the background colour going from staggered gray and white, to continuous gray in the finished project,
+also the footer was given more sections and information.
+* [Small Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Iphone%20Wireframe.png?raw=true)
+* [Medium Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Ipad%20Wireframe.png?raw=true)
+* [Large Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Desktop%20Wireframe.png?raw=true)
 
 # Design
 
 ### Colour Scheme
 
-The colour scheme was based around the colours found in the hex pallete.
+The colour scheme was based around the colours found in [this]() hex pallete.
 
 ### Typography 
 
