@@ -104,7 +104,7 @@ The _competitor interview_ with Mathieu Schatzler ultimately did not take place 
 ### **Wireframe Files**
 
 As this site is one continuous page, one wireframe mockup per device - small, medium & large was created.
-* ![Small Device](assets/images/)
+* ![Small Device]()
 * [Medium Device]()
 * [Large Device]()
 
@@ -148,6 +148,10 @@ This feature was coded entirely by [WEB CIFAR](https://www.youtube.com/channel/U
 
 * Project links to sites ang GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual prupose. The links in the meantime, 
 are linked to [example.com](http://example.com/)
+    * [This tutorial](https://www.youtube.com/watch?v=AtWJRBdzanM&t=1594s&ab_channel=MDB-justcodeit) was used early on in the project to help with understanding the Bootstrap grid system.
+    The code in the projects section was written entirely by me and is significantly different from the code in this tutorial, however, to be absolutely transparent I have included this tutorial
+    as a source and leave it up to whom it concerns to determine if the code is significantly similar to warrant accreditation.
+
 
 * The contact form - this feature is intended for the user to contact the site owner. During the preparation call with the course mentor Dick Vlaanderen, Dick advised that as there was no
 JavaScript in the miletone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
