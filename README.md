@@ -10,9 +10,9 @@ The main goal of the website is to convince prospective employers/collaborators 
 by providing an insight into their life & work history, their skills in the various programming languages, and by providing links to their past/upcoming projects and repo files.
 
 Owner goals:
-* Establish an online presense
+* Establish an online presence
 * Collaborations with other professionals on projects
-* Gain full/part-time employment opportunites
+* Gain full/part-time employment opportunities
 * Portray interest/willingness to work charitable/non-profit organisations
 * Portray their cultural and linguistic experiences
 * Leave user with a memorable experience which makes them stand out from competitors
@@ -45,17 +45,17 @@ One response was received from Mathieu Schatzler, the creative director of the s
 
 **Research Analysis**
 
-The _user interview_ with Míchéal O’Maoldomhnaigh yielded some surprising findings, most notable of all was the fact that in all of his years working in the software development rescruitment business, he had never _heard of_ or visited a portfolio site, and by extension,
-had never based his hiring decisions based off of one. Míchéal advised that his go-to resource for aquiring new talent was [LinkedIn](http://www.linkedin.com)[,]() and that if an individual wished to appear on his companies "radar" then they would habe to have a LinkedIn profile.
+The _user interview_ with Míchéal O’Maoldomhnaigh yielded some surprising findings, most notable of all was the fact that in all of his years working in the software development recruitment business, he had never _heard of_ or visited a portfolio site, and by extension,
+had never based his hiring decisions based off of one. Míchéal advised that his go-to resource for acquiring new talent was [LinkedIn](http://www.linkedin.com)[,]() and that if an individual wished to appear on his companies "radar" then they would have to have a LinkedIn profile.
 In preparation for the interview this possibility was anticipated and a number of questions were prepared in the event this was the case. 
 
 When asking Míchéal if there was anything that had prevented him from hiring someone in the past he mentioned that his company utilizes the boolean search function on LinkedIn by filtering the skills of the profiles, 
 so by extension, unless the LinkedIn profile had the relevant skills section completed then they would not show up
-in the results, which consequently would prevent them being considered for hire indirectly. Míchéal also mentioned that he likes to see LinekdIn accounts up-to date and fully completed with 
+in the results, which consequently would prevent them being considered for hire indirectly. Míchéal also mentioned that he likes to see LinkedIn accounts up-to date and fully completed with 
 years of experience included, etc.
 
-In conclusion, while the assosiated LinkedIn profile was always intended to be a feature of the website via a clickable link in the footer, the importance of having a fully completed profile was not fully appreciated
-prior to the interview being conducted. As such, when the website is deployed, the associated LinkedIn profile will be fully completed with the most up-to date information and is intended to be an extension of the site. Based off of Míchéal's feedback, user's are likely to predominantly use LinkedIn
+In conclusion, while the associated LinkedIn profile was always intended to be a feature of the website via a clickable link in the footer, the importance of having a fully completed profile was not fully appreciated
+prior to the interview being conducted. As such, when the website is deployed, the associated LinkedIn profile will be fully completed with the most up-to-date information and is intended to be an extension of the site. Based off of Míchéal's feedback, user's are likely to predominantly use LinkedIn
 and the goal of completing the profile is to direct traffic to the website and vice versa. This will help to achieve the goal of leaving a lasting impression of the site owner on the user by virtue of having a portfolio site that many apparently do not have in this industry.
 
 
@@ -65,7 +65,7 @@ The _competitor interview_ with Mathieu Schatzler ultimately did not take place 
 
 ### **Specific expected users, their goals & user stories**
 
-**The kind of users expected to visit this webiste are as follows:**
+**The kind of users expected to visit this website are as follows:**
 * Recruitment agencies
 * HR departments
 * Charitable/non-profit organizations
@@ -93,11 +93,10 @@ The _competitor interview_ with Mathieu Schatzler ultimately did not take place 
 1. As a potential employer, I want to be able to view the site owners skills, work history and previous projects to help me determine if this person would be a good fit for my business
 1. As a potential employer, I want to know if this person is currently employed
 1. As a potential employer, I want to be able to see the site owners repo files for previous projects to assess their organizational and workflow skills
-1. As a potential employer, I want to be able to contact the site owner to discuss employment
+1. As a potential employer/collaborator, I want to be able to contact the site owner to discuss employment/collaboration
 1. As a potential employer, I want to be able to download a copy of the site owners CV
 1. As a charitable organization , I want to be able to determine if the site owner is interested in working on a project with potential financial constraints in place
 1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects
-1. As an interested employer/collaborator, I want to be able to contact the site owner
 1. As a general user, I want to get feedback on any form submissions on the site to confirm contact has been successful
 
 ### **Wireframe Files**
@@ -113,7 +112,7 @@ also the footer was given more sections and information.
 
 ### **Colour Scheme**
 
-The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Colour-hex.pdf) hex pallete. The white sections of the site ie the paragraphs etc are an off white rather that pure white, this
+The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Colour-hex.pdf) hex palette. The white sections of the site ie the paragraphs etc are an off white rather that pure white, this
 was decided upon to avoid a stark contrast between the elements.
 
 ### **Typography** 
@@ -124,31 +123,31 @@ Poppins was used for heading and buttons, and Quattrocento was used for paragrap
 ### **Images** 
 
 Background images and  the project sections thumbnails were taken from [Unsplash](https://unsplash.com/) (credited below in the credits sections). The background images were specifically selected as the aim was to subliminally suggest that
-the site owner is unique, the backgroud images in both the _landing_ & _about_ section feature a single leaf and tree respectively that stand out from the images surroundings. The background images have an opaque overlay on top of them. This was done to make sure the user was not distracted from the main content of the respective sections.
+the site owner is unique, the background images in both the _landing_ & _about_ section feature a single leaf and tree respectively that stand out from the images surroundings. The background images have an opaque overlay on top of them. This was done to make sure the user was not distracted from the main content of the respective sections.
 
      
 # **Features** 
 
 ### **Existing Features** 
 
-After consideration of the expected users, and that these users are likely to be working in an office enviornment, the decision was made not to include any audio or video files in the site 
-as this has the potential to distrupt others around them resulting in a potentially poor user experience.
+After consideration of the expected users, and that these users are likely to be working in an office environment, the decision was made not to include any audio or video files in the site 
+as this has the potential to disrupt others around them resulting in a potentially poor user experience.
 
 The website has the following features, listed in order of appearance - left to right & top to bottom respectively on the website.
 
 * Logo - this feature is intended to clearly convey the site owners name / brand, this also serves as an anchor to the home of the site and is placed on the top-left of the site, as is convention.
 
 * The Navbar - This is the heart of the site. The navbar allows the user to navigate the site from anywhere in the site that the user finds themself. It will have a 'mouse-over' feature to provide feedback about which link they are about to click.
-The navbar will is designed to expand at the _sm_ breakpoint.
+The navbar is designed to expand at the _sm_ breakpoint.
     
 * Call to action button - this feature is on the landing page and is designed for people who want to contact the site owner quickly without having to navigate through the other content.
 
 * Scroll prompt - the scroll prompt is an animated feature which will is placed on the bottom of the viewport of the landing section, this gives the user a visual prompt that the site is one continuous page and is best experienced as such, and will hopefully prevent them from first navigating through the site via the navbar.
 This feature was coded entirely by [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ), specifically [this tutorial](https://www.youtube.com/watch?v=LY1jeQGUiAI&t=57s) and full credit goes to the author.
 
-* Progress bars - this feature is intened to give the user a visual representation of proficiency in the various languages the site owner is fluent in. This feature is intended to show both the skills and, subtly, any potential relevant weaknesses of the site owner at the same time, while emphasising the strengths as to not convey incompetence.
+* Progress bars - this feature is intended to give the user a visual representation of proficiency in the various languages the site owner is fluent in. This feature is intended to show both the skills and, subtly, any potential relevant weaknesses of the site owner at the same time, while emphasising the strengths as to not convey incompetence.
 
-* Project section links to finished sites and GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual prupose. The links in the meantime, 
+* Project section links to finished sites and GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual purpose. The links in the meantime, 
 are linked to [example.com](http://example.com/)
     * [This tutorial](https://www.youtube.com/watch?v=AtWJRBdzanM&t=1594s&ab_channel=MDB-justcodeit) was used early on in the project to help with understanding the Bootstrap grid system.
     The code in the projects section was written entirely by me and is significantly different from the code in this tutorial, however, to be absolutely transparent I have included this tutorial
@@ -156,21 +155,21 @@ are linked to [example.com](http://example.com/)
 
 
 * The contact form - this feature is intended for the user to contact the site owner. During the preparation call with the course mentor Dick Vlaanderen, Dick advised that as there was no
-JavaScript in the miletone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
+JavaScript in the milestone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
 page called confirmation.html which the _submit_ button of the form would link to. The confirmation page has a message informing the user that the submission is successful and that the site owner will
 be in touch with them shortly. The confirmation page has a redirect function in the head tag which redirects to the main index.html page after 10 seconds.
 
 * The footer - this feature is at the bottom of the page and has three sections: about, social-links, and a section that has a link to a downloadable CV. The footer is designed to be responsive and goes from
-three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint, to three colums placed horizontally for larger screen sizes.
+three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint, to three columns placed horizontally for larger screen sizes.
 
 * CV Link - this feature is a clickable icon in the navbar/footer and opens in a new tab. This will open a downloadable pdf link to the site owners CV.
 
-### **Featues to be implemented in the future**
+### **Features to be implemented in the future**
 
 * The projects section will be updated with any future projects.
-* When JavaScript proficiency has been aqcuired more animation & interactive features will be added.
+* When JavaScript proficiency has been acquired more animation & interactive features will be added.
 * A fully functioning contact section will be added when JavaScript has been acquired.
-* The skills deature will be updated if and when new languages are acquired.
+* The skills feature will be updated if and when new languages are acquired.
 
 
 # **Technologies Used**
@@ -187,7 +186,7 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 * [Font Awesome](https://fontawesome.com/) was used for the icons in the footer of the site.
 * [Balsamiq](https://balsamiq.com/) was used to create the mockups of the site.
 * [Gitpod](https://www.gitpod.io/) was used to create the site.
-* [GitHub](https://github.com/) was used to store the commited/pushed repositries of the site.
+* [GitHub](https://github.com/) was used to store the committed/pushed repositories of the site.
 * [jQuery](https://en.wikipedia.org/wiki/JQuery) was used as part of the Bootstrap CDN which gave the navbar the collapsible functionality and the smooth-scrolling effect of the site.
 * [Autoprefixer](https://autoprefixer.github.io/) was used to automatically add any required prefixes for the CSS stylesheet.
 * [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/) was used to create the table of contents in the readme file.
@@ -197,31 +196,39 @@ GitHub Wiki TOC generator
 # **Testing**
 
 ## **User Stories Testing**
+
+1. As a user visiting the site for the first time, I want to be able to intuitively navigate the website from anywhere in the site
+    * User can navigate the site using the [navigation bar](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Navigation.png?raw=true). The navigator was tested on several various screen 
+    sizes and all were functional at time of writing
 1. As a potential employer, I want to be able to view the site owners skills, work history and previous projects to help me determine if this person would be a good fit for my business.
-    * User can load webpage, go to the _about_ section to view [skills](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Skills.png?raw=true), [work history]https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Work%20experience-Employment%20status.png?raw=true) can be viewed via the downloadable CV
+    * User can load webpage, go to the _about_ section to view [skills](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Skills.png?raw=true) can be viewed via the downloadable CV
     and [previous projects](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Projects.png?raw=true) can be seen in the projects section.
 
 1. As a potential employer, I want to know if this person is currently employed.
     * User can check the site owners [CV](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Work%20experience-Employment%20status.png?raw=true) and see that they are currently employed or not.
     
 1. As a potential employer, I want to be able to see the site owners repo files for previous projects to assess their organizational and workflow skills.
-    * User can go to projects section on the site. There they will find the users previous projects and the links to the deployed sites & their respective 
-    [repo files](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/GitHub%20Repo.png?raw=true) undeneath in the form of a button style link.
+    * Users can go to the projects section on the site. There they will find the users previous projects and the links to the deployed sites & their respective 
+    [repo files](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/GitHub%20Repo.png?raw=true) underneath in the form of a button style link.
 
 1. As a potential employer, I want to be able to contact the site owner to discuss employment.
-    * User can go to the [contact](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Contact.png?raw=true) section and enter their name, email address and their project description/query. Contact can also me made via the social links in the footer.
+    * Users can go to the [contact](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Contact.png?raw=true) section and enter their name, email address and their project description/query. 
+    Contact can also me made via the social links in the footer.
 
 1. As a potential employer, I want to be able to download a copy of the site owners CV.
-    * User can download the CV from [two places](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CV%20Links.png?raw=true), one in the navigation bar, and the other via a clickable icon in the footer. Both open in a new tab.
+    * Users can download the CV from [two places](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CV%20Links.png?raw=true), one in the navigation bar, 
+    and the other via a clickable icon in the footer. Both open in a new tab.
 
 1. As a charitable organization , I want to be able to determine if the site owner is interested in working on a project with potential financial constraints in place.
-    * User can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Charity.png?raw=true) section on the _about_ page.
+    * Users can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Charity.png?raw=true) section on the _about_ page.
 
 1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects.
-    * User can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Social.png?raw=true).
+    * Users can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Social.png?raw=true).
 
 1. As a general user, I want to get feedback on any form submissions on the site to confirm contact has been successful.
-    * User can submit their query into the form in the contact section. Once they have clicked _submit_ they will be given a message that their [form has been submitted](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Confirmation.png?raw=true) and will be redirected
+    * Users can submit their query into the form in the contact section. Once they have clicked _submit_ they will be given a message that their 
+    [form has been submitted](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Confirmation.png?raw=true)
+     and will be redirected
     to the main page after 10 seconds.
 
 All of the user stories above were tested on small, medium and large devices. All user stories were fully functional at time of writing.
@@ -234,6 +241,11 @@ The HTML code for both index.html & confirmation.html were tested using the [W3C
 The CSS code in the style.css file was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CSS-validator-results.pdf)
 
+Testing was conducted on Chrome throughout, and on Firefox, Safari and Microsoft Edge at the testing stage. No bugs except for ??? were noticed.
+
+### **Unresolved Bugs**
+
+The 
 
 
 

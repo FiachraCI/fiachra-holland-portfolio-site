@@ -257,7 +257,7 @@ nav button i {
   }
 }
 
-/* End of "WEB CIFAR'S code" */
+/* End of "WEB CIFAR'S" code */
 
 /* ------------------------------About */
 
@@ -379,7 +379,7 @@ img.img-fluid.thumbnail {
     margin: 2rem auto;
     display: block;
     min-width: 300px;
-    max-height: 153px;
+    max-height: 180px;
     background-size: contain;
 }
 
@@ -548,8 +548,8 @@ footer {
     }
 }
 
-@media(max-width: 576px) {
-    .landing {
-        height: 90v;
-    }
+@media(max-width: 400px) {
+    .landing h1 {
+    margin-top: 1rem;
+}
 }
