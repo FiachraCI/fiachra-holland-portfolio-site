@@ -342,6 +342,7 @@ img.img-fluid.thumbnail {
     display: block;
     min-width: 300px;
     max-height: 153px;
+    background-size: contain;
 }
 
 /* ------------------------------Contact */
@@ -496,6 +497,12 @@ footer {
 @media(max-width: 350px) {
     #contact h1 {
         padding-top: 6.5rem;
+    }
+}
+
+@media(max-width: 350px) {
+    .navbar-brand {
+        white-space: normal;
     }
 }
 

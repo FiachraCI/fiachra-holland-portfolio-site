@@ -21,27 +21,28 @@ Owner goals:
 * Determine site owners availability
 * Make contact to discuss employment/collaboration
 * Determine if the site owner has anything to offer which makes them stand out from competitors
-![alt text](https://github.com/FiachraCI/readmepractice/README-files/"Logo Title Text 1")
-/workspace/readmepractice/README-files/Desktop Wireframe.png
+
 
 ## UX
 --- 
 
 ### **Project Research**
 
-Research for this project began with conducting user & competitor interviews. 
+Research for this project began with conducting user interviews. Attempts were made to conduct competitor interviews, however, despite setting up an interview, the interviewee ultimately failed to provide feedback in time (see below). 
 
 For _user interviews_ [Google](http://google.com) was used to search for software development recruitment agencies/software companies in Ireland.
 Out of 10 queries sent, one response was received from Míchéal O’Maoldomhnaigh, the Managing Director of [Software Placements](https://softwareplacements.ie/)[.]()
 
-Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here](https://github.com/FiachraCI/readmepractice/blob/master/README-files/user-interview.pdf).
+Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here](assets/readme-files/)
+Format: [Alt Text](assets/).
 Analysis of the interview can be found below in the [analysis]() section.
 
 For _competitor interviews_, queries were sent to various owners of sites from the following links:
 * [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 * [10 Full Stack Web Developer Portfolio to Inspire You](https://tamuk.quickstart.com/blog/10-full-stack-web-developer-portfolio-to-inspire-you/)
 
-One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found [here](lorem), and the analysis can again be found below in the [analysis]() section.
+One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found ![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url), and the analysis can again be found below in the [analysis]() section.
 
 **Research Analysis**
 
@@ -60,12 +61,8 @@ and the goal of completing the profile is to direct traffic to the website and v
 
 
 
-The _competitor interview_ with Mathieu Schatzler also yielded some useful information:
+The _competitor interview_ with Mathieu Schatzler ultimately did not take place as Mathieu did not respond in time.
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-culpa qui officia deserunt mollit anim id est laborum."
 
 ### **Specific expected users, their goals & user stories**
 
@@ -107,10 +104,25 @@ culpa qui officia deserunt mollit anim id est laborum."
 ### **Wireframe Files**
 
 As this site is one continuous page, one wireframe mockup per device - small, medium & large was created.
-* [Small Device](https://github.com/FiachraCI/readmepractice/blob/master/README-files/Iphone%20Wireframe.png)
-* [Medium Device](https://github.com/FiachraCI/readmepractice/blob/master/README-files/Ipad%20Wireframe.png)
-* [Large Device](https://github.com/FiachraCI/readmepractice/blob/master/README-files/Desktop%20Wireframe.png)
+* ![Small Device](assets/images/)
+* [Medium Device]()
+* [Large Device]()
 
+# Design
+
+### Colour Scheme
+
+The colour scheme was based around the colours found in the hex pallete.
+
+### Typography 
+
+Three fonts were used in the construction of the site. The fonts - Lobster, Poppins and Quattrocento were taken from Google Fonts. Lobster was used only for the navbar logo portion to make it unique, 
+Poppins was used for heading and buttons, and Quattrocento was used for paragraphs.
+
+### Images 
+
+Background images and  the project sections thumbnails were taken from [Unsplash](https://unsplash.com/) (credited below in the credits sections). The background images were specifically selected as the aim was to subliminally suggest that
+the site owner is unique, the backgroud images in both the _landing_ & _about_ section feature a single leaf and tree respectively that stand out from the images surroundings.
 
      
 # Features 
@@ -122,22 +134,52 @@ as this has the potential to distrupt others around them resulting in a potentia
 
 The website has the following features, listed in order of appearance - left to right & top to bottom respectively on the website.
 
-* Logo - this feature is intended to clearly convey the site owners name / brand, this also serves as an anchor to the home of the site as is convention.
+* Logo - this feature is intended to clearly convey the site owners name / brand, this also serves as an anchor to the home of the site and is placed on the top-left of the site, as is convention.
 
-* The Navbar - This is the heart of the site. The navbar allows the user to navigate the site from anywhere in the site that the user finds themself. It will have a 'mouse-over' feature to provide feedback about which link they are about to click. It will also be highlihted to tell the user which section of the site they are currently in.
-The navbar will have three break points: sm-md, med, lrg.
-
-* Interactive globe - This is placed in the center of the navbar on all browser sizes and will respond to the users mouse when moving in the landing page container. This feature is intended to convey the message that travel is one of the passions of the site owner and this message in reinforced later in the page. The interactiveness of this feature gives the user the ability to interact with an otherwise static site and is intended to be a memorable feature.
+* The Navbar - This is the heart of the site. The navbar allows the user to navigate the site from anywhere in the site that the user finds themself. It will have a 'mouse-over' feature to provide feedback about which link they are about to click.
+The navbar will is designed to expand at the _sm_ breakpoint.
     
-* Call to action button
+* Call to action button - this feature is on the landing page and is designed for people who want to contact the site owner quickly without having to navigate through the other content.
 
-* Scroll prompt - the scroll prompt is an animated feature which will be placed on the bottom of the viewport of each section, this will give the user a visual prompt that the site is one continuous page and is best experienced as such, and will hopefully prevent them from first navigating through the site via the navbar.
+* Scroll prompt - the scroll prompt is an animated feature which will is placed on the bottom of the viewport of the landing section, this gives the user a visual prompt that the site is one continuous page and is best experienced as such, and will hopefully prevent them from first navigating through the site via the navbar.
+This feature was coded entirely by [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ), specifically [this tutorial](https://www.youtube.com/watch?v=LY1jeQGUiAI&t=57s) and full credit goes to the author.
 
-* Progress bars - this feature is is intened to give the user a visual representation of proficiency in the various languages the site owner is fluent in. This feature is intended to show both the skills and, subtly, any potential relevant weaknesses of the site owner at the same time, while emphasising the strengths as to not convey incompetence.
+* Progress bars - this feature is intened to give the user a visual representation of proficiency in the various languages the site owner is fluent in. This feature is intended to show both the skills and, subtly, any potential relevant weaknesses of the site owner at the same time, while emphasising the strengths as to not convey incompetence.
+
+* Project links to sites ang GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual prupose. The links in the meantime, 
+are linked to [example.com](http://example.com/)
+
+* The contact form - this feature is intended for the user to contact the site owner. During the preparation call with the course mentor Dick Vlaanderen, Dick advised that as there was no
+JavaScript in the miletone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
+page called confirmation.html which the _submit_ button of the form would link to. The confirmation page has a message informaing the user that the submission is successful and that the site owner will
+be in touch with them shortly. The confirmation page has a redirect function in the head tag which redirects to the main index.html page after 10 seconds.
+
+* The footer - this feature is at the bottom of the page and has three sections: about, social-links, and a section that has a link to a downloadable CV. The footer is designed to be responsive and goes from
+three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint, to three colums placed horizontally for larger screen sizes.
 
 * CV Link - this feature is a clickable icon in the navbar/footer and opens in a new tab. This will open a downloadable pdf link to the site owners CV.
 
 
 
-## Technologies used
----
+# Technologies Used
+
+## Languages 
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+
+## Frameworks and Libraries
+
+* [Bootstrap v5.0.0-beta2](https://getbootstrap.com/) was used responsiveness and layout purposes.
+* [Google Fonts](https://fonts.google.com/) was used for the three fonts used in the site.
+* [Font Awesome](https://fontawesome.com/) was used for the icons in the footer of the site.
+* [Balsamiq](https://balsamiq.com/) was used to create the mockups of the site.
+* [Gitpod](https://www.gitpod.io/) was used to create the site.
+* [GitHub](https://github.com/) was used to store the commited/pushed repositries of the site.
+* [jQuery](https://en.wikipedia.org/wiki/JQuery) was used as part of the Bootstrap CDN which gave the navbar the collapsible functionality and the smooth-scrolling effect of the site.
+
+# Testing
+
+
+
+
