@@ -1,4 +1,6 @@
-# Fiachra Holland - Portfolio
+TOC
+
+# **Fiachra Holland - Portfolio**
 
 A portfolio site for a full-stack web developer based in Ireland.
 The website features an initial landing page with a fixed navbar on top, and is designed to be one continuous page which scrolls through and _biography/skills_ section, 
@@ -23,7 +25,7 @@ Owner goals:
 * Determine if the site owner has anything to offer which makes them stand out from competitors
 
 
-## UX
+## **UX**
 --- 
 
 ### **Project Research**
@@ -33,22 +35,19 @@ Research for this project began with conducting user interviews. Attempts were m
 For _user interviews_ [Google](http://google.com) was used to search for software development recruitment agencies/software companies in Ireland.
 Out of 10 queries sent, one response was received from Míchéal O’Maoldomhnaigh, the Managing Director of [Software Placements](https://softwareplacements.ie/)[.]()
 
-Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here](assets/readme-files/)
-Format: [Alt Text](assets/).
-Analysis of the interview can be found below in the [analysis]() section.
+Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Gmail%20-%20RE_%20Contact%20form%20enquiry%20from%20Fiachra%20Holland.pdf) Analysis of the interview can be found in the analysis section below.
 
 For _competitor interviews_, queries were sent to various owners of sites from the following links:
 * [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 * [10 Full Stack Web Developer Portfolio to Inspire You](https://tamuk.quickstart.com/blog/10-full-stack-web-developer-portfolio-to-inspire-you/)
 
-One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url), and the analysis can again be found below in the [analysis]() section.
+One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Gmail%20-%20Competitor%20Interview.pdf)
 
 **Research Analysis**
 
 The _user interview_ with Míchéal O’Maoldomhnaigh yielded some surprising findings, most notable of all was the fact that in all of his years working in the software development rescruitment business, he had never _heard of_ or visited a portfolio site, and by extension,
 had never based his hiring decisions based off of one. Míchéal advised that his go-to resource for aquiring new talent was [LinkedIn](http://www.linkedin.com)[,]() and that if an individual wished to appear on his companies "radar" then they would habe to have a LinkedIn profile.
-In [preparation]() for the interview this possibility was anticipated and a number of questions were prepared in the event this was the case. 
+In preparation for the interview this possibility was anticipated and a number of questions were prepared in the event this was the case. 
 
 When asking Míchéal if there was anything that had prevented him from hiring someone in the past he mentioned that his company utilizes the boolean search function on LinkedIn by filtering the skills of the profiles, 
 so by extension, unless the LinkedIn profile had the relevant skills section completed then they would not show up
@@ -110,28 +109,29 @@ also the footer was given more sections and information.
 * [Medium Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Ipad%20Wireframe.png?raw=true)
 * [Large Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Desktop%20Wireframe.png?raw=true)
 
-# Design
+# **Design**
 
-### Colour Scheme
+### **Colour Scheme**
 
-The colour scheme was based around the colours found in [this]() hex pallete.
+The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Colour-hex.pdf) hex pallete. The white sections of the site ie the paragraphs etc are an off white rather that pure white, this
+was decided upon to avoid a stark contrast between the elements.
 
-### Typography 
+### **Typography** 
 
 Three fonts were used in the construction of the site. The fonts - Lobster, Poppins and Quattrocento were taken from Google Fonts. Lobster was used only for the navbar logo portion to make it unique, 
 Poppins was used for heading and buttons, and Quattrocento was used for paragraphs.
 
-### Images 
+### **Images** 
 
 Background images and  the project sections thumbnails were taken from [Unsplash](https://unsplash.com/) (credited below in the credits sections). The background images were specifically selected as the aim was to subliminally suggest that
-the site owner is unique, the backgroud images in both the _landing_ & _about_ section feature a single leaf and tree respectively that stand out from the images surroundings.
+the site owner is unique, the backgroud images in both the _landing_ & _about_ section feature a single leaf and tree respectively that stand out from the images surroundings. The background images have an opaque overlay on top of them. This was done to make sure the user was not distracted from the main content of the respective sections.
 
      
-# Features 
+# **Features** 
 
 ### **Existing Features** 
 
-After consideration of the expected users, and that these users are likely to be working in an office enviornment, the decision was made not to include any audio files in the site 
+After consideration of the expected users, and that these users are likely to be working in an office enviornment, the decision was made not to include any audio or video files in the site 
 as this has the potential to distrupt others around them resulting in a potentially poor user experience.
 
 The website has the following features, listed in order of appearance - left to right & top to bottom respectively on the website.
@@ -148,16 +148,16 @@ This feature was coded entirely by [WEB CIFAR](https://www.youtube.com/channel/U
 
 * Progress bars - this feature is intened to give the user a visual representation of proficiency in the various languages the site owner is fluent in. This feature is intended to show both the skills and, subtly, any potential relevant weaknesses of the site owner at the same time, while emphasising the strengths as to not convey incompetence.
 
-* Project links to sites ang GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual prupose. The links in the meantime, 
+* Project section links to finished sites and GitHub repositories - as these projects are not real projects at the time or writing, the links are intended to convey their eventual prupose. The links in the meantime, 
 are linked to [example.com](http://example.com/)
     * [This tutorial](https://www.youtube.com/watch?v=AtWJRBdzanM&t=1594s&ab_channel=MDB-justcodeit) was used early on in the project to help with understanding the Bootstrap grid system.
     The code in the projects section was written entirely by me and is significantly different from the code in this tutorial, however, to be absolutely transparent I have included this tutorial
-    as a source and leave it up to whom it concerns to determine if the code is significantly similar to warrant accreditation.
+    as a source and leave it up to whom it concerns to determine if the code is significantly similar to warrant accreditation. If this is the case, then full credit goes to the author [MDB- just code it](https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA) where applicable.
 
 
 * The contact form - this feature is intended for the user to contact the site owner. During the preparation call with the course mentor Dick Vlaanderen, Dick advised that as there was no
 JavaScript in the miletone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
-page called confirmation.html which the _submit_ button of the form would link to. The confirmation page has a message informaing the user that the submission is successful and that the site owner will
+page called confirmation.html which the _submit_ button of the form would link to. The confirmation page has a message informing the user that the submission is successful and that the site owner will
 be in touch with them shortly. The confirmation page has a redirect function in the head tag which redirects to the main index.html page after 10 seconds.
 
 * The footer - this feature is at the bottom of the page and has three sections: about, social-links, and a section that has a link to a downloadable CV. The footer is designed to be responsive and goes from
@@ -167,14 +167,14 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 
 
 
-# Technologies Used
+# **Technologies Used**
 
-## Languages 
+## **Languages** 
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
-## Frameworks and Libraries
+## **Frameworks and Libraries**
 
 * [Bootstrap v5.0.0-beta2](https://getbootstrap.com/) was used responsiveness and layout purposes.
 * [Google Fonts](https://fonts.google.com/) was used for the three fonts used in the site.
@@ -184,7 +184,7 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 * [GitHub](https://github.com/) was used to store the commited/pushed repositries of the site.
 * [jQuery](https://en.wikipedia.org/wiki/JQuery) was used as part of the Bootstrap CDN which gave the navbar the collapsible functionality and the smooth-scrolling effect of the site.
 
-# Testing
+# **Testing**
 
 
 

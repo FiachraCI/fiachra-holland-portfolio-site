@@ -118,6 +118,10 @@ nav button i {
     align-items: center;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 /* ------------------------------Landing Page */
 
 .landing {
