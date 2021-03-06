@@ -165,6 +165,12 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 
 * CV Link - this feature is a clickable icon in the navbar/footer and opens in a new tab. This will open a downloadable pdf link to the site owners CV.
 
+### **Featues to be implemented in the future**
+
+* The projects section will be updated with any future projects.
+* When JavaScript proficiency has been aqcuired more animation & interactive features will be added.
+* A fully functioning contact section will be added when JavaScript has been acquired.
+* The skills deature will be updated if and when new languages are acquired.
 
 
 # **Technologies Used**
@@ -183,8 +189,42 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 * [Gitpod](https://www.gitpod.io/) was used to create the site.
 * [GitHub](https://github.com/) was used to store the commited/pushed repositries of the site.
 * [jQuery](https://en.wikipedia.org/wiki/JQuery) was used as part of the Bootstrap CDN which gave the navbar the collapsible functionality and the smooth-scrolling effect of the site.
+* [Autoprefixer](https://autoprefixer.github.io/) was used to automatically add any required prefixes for the CSS stylesheet.
+* [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/) was used to create the table of contents in the readme file.
+
+GitHub Wiki TOC generator
 
 # **Testing**
+
+## **User Stories Testing**
+1. As a potential employer, I want to be able to view the site owners skills, work history and previous projects to help me determine if this person would be a good fit for my business.
+    * User can load webpage, go to the _about_ section to view skills, work history can be viewed via the downloadable CV
+    and previous projects can be seen in the projects section.
+
+1. As a potential employer, I want to know if this person is currently employed.
+    * User can check the site owners CV and see that they are currently employed or not.
+    
+1. As a potential employer, I want to be able to see the site owners repo files for previous projects to assess their organizational and workflow skills.
+    * User can go to projects section on the site. There they will find the users previous projects and the links to the deployed sites & their respective 
+    repo files undeneath in the form of a button style link.
+
+1. As a potential employer, I want to be able to contact the site owner to discuss employment.
+    * User can go to the contact section and enter their name, email address and their project description/query. Contact can also me made via the social links in the footer.
+
+1. As a potential employer, I want to be able to download a copy of the site owners CV.
+    * User can download the CV from two places, one in the navigation bar, and the other via a clickable icon in the footer. Both open in a new tab.
+
+1. As a charitable organization , I want to be able to determine if the site owner is interested in working on a project with potential financial constraints in place.
+    * User can determine this from reading the Biography section on the _about_ page.
+
+1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects.
+    * User can go to the footer to source the site owners social links.
+
+1. As a general user, I want to get feedback on any form submissions on the site to confirm contact has been successful.
+    * User can submit their query into the form in the contact seciton. Once they have clicked _submit_ they will be given a message that their form has been submitted and will be redirected
+    to the main page after 10 seconds.
+
+
 
 
 

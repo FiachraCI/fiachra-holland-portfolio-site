@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Poppins:wght@100;200&display=swap');
 
 * {
@@ -71,6 +78,7 @@ header {
 }
 nav {
     background-color: #1e2328;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -115,11 +123,14 @@ nav button i {
 
 .navbar-nav {
     /* Bug 1 solution */
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 /* ------------------------------Landing Page */
@@ -160,7 +171,6 @@ nav button i {
     border-radius: 10px;
     display: block;
     margin: 0 auto 2.5rem auto;
-    padding: 0 auto;
     width: 8rem;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
@@ -184,7 +194,9 @@ nav button i {
   border: 2px solid #fafafa;
   position: absolute;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
   bottom: 20px;
   border-radius: 50px;
   cursor: pointer;
@@ -198,15 +210,35 @@ nav button i {
   left: 50%;
   height: 10px;
   width: 10px;
-  transform: translate(-50%, -100%) rotate(45deg);
+  -webkit-transform: translate(-50%, -100%) rotate(45deg);
+      -ms-transform: translate(-50%, -100%) rotate(45deg);
+          transform: translate(-50%, -100%) rotate(45deg);
   border: 2px solid #fafafa;
   border-top: transparent;
   border-left: transparent;
-  animation: scroll-down 1s ease-in-out infinite;
+  -webkit-animation: scroll-down 1s ease-in-out infinite;
+          animation: scroll-down 1s ease-in-out infinite;
 }
 .scroll-down::before {
   top: 30%;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+@-webkit-keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
 }
 
 @keyframes scroll-down {
@@ -286,7 +318,9 @@ nav button i {
 .language-name {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
     color: #fafafa;
     font-weight: 600;
     font-family: "Poppins",sans-serif;
@@ -294,7 +328,6 @@ nav button i {
 
 #progress-top {
     margin-top: 4rem;
-    margin-bottom: none;
 }
 
 /* ------------------------------Projects */
@@ -312,7 +345,9 @@ nav button i {
     position:absolute;
     left:50%;
     top:50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 #projects h2 {
@@ -325,7 +360,6 @@ nav button i {
     background-color: #f5b301;
     border-radius: 10px;
     margin: 0 auto 2.5rem auto;
-    padding: 0 auto;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
     transition: all .35s ease-in-out;
@@ -357,7 +391,9 @@ img.img-fluid.thumbnail {
 }
 
  .contact .col-md-8 {
-     align-items: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
  }
 
 form {
@@ -366,12 +402,14 @@ form {
  position:absolute;
  left:50%;
  top:50%;
- transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
 }
 
 form input {
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     width: 30rem;
 }
 
@@ -387,7 +425,6 @@ form textarea {
     border-radius: 10px;
     display: block;
     margin: 0 auto 2.5rem auto;
-    padding: 0 auto;
     width: 8rem;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
@@ -400,9 +437,8 @@ form textarea {
 
 footer {
     color: #fafafa;
-    /* bottom: 0; */
+    position: relative;
     text-align: center;
-    position: sticky;
 }
 
 .footer-heading {
@@ -443,10 +479,10 @@ footer {
 
 /* ------------------------------Confirmation Page */
 
-/* #footer-confirmation {
+#footer-confirmation {
     position: fixed;
     bottom: 0;
-} */
+}
 
 #confirmation {
     height: 100vh;
@@ -483,6 +519,8 @@ footer {
 @media(max-width: 500px) {
     form input, form textarea {
     width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 }
 
@@ -510,3 +548,8 @@ footer {
     }
 }
 
+@media(max-width: 576px) {
+    .landing {
+        height: 90v;
+    }
+}
