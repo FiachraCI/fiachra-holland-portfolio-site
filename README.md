@@ -198,32 +198,41 @@ GitHub Wiki TOC generator
 
 ## **User Stories Testing**
 1. As a potential employer, I want to be able to view the site owners skills, work history and previous projects to help me determine if this person would be a good fit for my business.
-    * User can load webpage, go to the _about_ section to view skills, work history can be viewed via the downloadable CV
-    and previous projects can be seen in the projects section.
+    * User can load webpage, go to the _about_ section to view [skills](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Skills.png?raw=true), [work history]https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Work%20experience-Employment%20status.png?raw=true) can be viewed via the downloadable CV
+    and [previous projects](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Projects.png?raw=true) can be seen in the projects section.
 
 1. As a potential employer, I want to know if this person is currently employed.
-    * User can check the site owners CV and see that they are currently employed or not.
+    * User can check the site owners [CV](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Work%20experience-Employment%20status.png?raw=true) and see that they are currently employed or not.
     
 1. As a potential employer, I want to be able to see the site owners repo files for previous projects to assess their organizational and workflow skills.
     * User can go to projects section on the site. There they will find the users previous projects and the links to the deployed sites & their respective 
-    repo files undeneath in the form of a button style link.
+    [repo files](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/GitHub%20Repo.png?raw=true) undeneath in the form of a button style link.
 
 1. As a potential employer, I want to be able to contact the site owner to discuss employment.
-    * User can go to the contact section and enter their name, email address and their project description/query. Contact can also me made via the social links in the footer.
+    * User can go to the [contact](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Contact.png?raw=true) section and enter their name, email address and their project description/query. Contact can also me made via the social links in the footer.
 
 1. As a potential employer, I want to be able to download a copy of the site owners CV.
-    * User can download the CV from two places, one in the navigation bar, and the other via a clickable icon in the footer. Both open in a new tab.
+    * User can download the CV from [two places](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CV%20Links.png?raw=true), one in the navigation bar, and the other via a clickable icon in the footer. Both open in a new tab.
 
 1. As a charitable organization , I want to be able to determine if the site owner is interested in working on a project with potential financial constraints in place.
-    * User can determine this from reading the Biography section on the _about_ page.
+    * User can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Charity.png?raw=true) section on the _about_ page.
 
 1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects.
-    * User can go to the footer to source the site owners social links.
+    * User can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Social.png?raw=true).
 
 1. As a general user, I want to get feedback on any form submissions on the site to confirm contact has been successful.
-    * User can submit their query into the form in the contact seciton. Once they have clicked _submit_ they will be given a message that their form has been submitted and will be redirected
+    * User can submit their query into the form in the contact section. Once they have clicked _submit_ they will be given a message that their [form has been submitted](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Confirmation.png?raw=true) and will be redirected
     to the main page after 10 seconds.
 
+All of the user stories above were tested on small, medium and large devices. All user stories were fully functional at time of writing.
+
+## **Further testing**
+
+The HTML code for both index.html & confirmation.html were tested using the [W3C HTML Validator](https://validator.w3.org/)
+* The results can be seen [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/HTML-validator-results.pdf)
+
+The CSS code in the style.css file was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CSS-validator-results.pdf)
 
 
 
