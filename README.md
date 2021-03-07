@@ -216,11 +216,11 @@ GitHub Wiki TOC generator
     Contact can also me made via the social links in the footer.
 
 1. As a potential employer, I want to be able to download a copy of the site owners CV.
-    * Users can download the CV from [two places](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CV%20Links.png?raw=true), one in the navigation bar, 
+    * Users can download the CV from [two places](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/cv-links.png?raw=true), one in the navigation bar, 
     and the other via a clickable icon in the footer. Both open in a new tab.
 
 1. As a charitable organization , I want to be able to determine if the site owner is interested in working on a project with potential financial constraints in place.
-    * Users can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Charity.png?raw=true) section on the _about_ page.
+    * Users can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/charity.png?raw=true) section on the _about_ page.
 
 1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects.
     * Users can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Social.png?raw=true).
@@ -233,7 +233,7 @@ GitHub Wiki TOC generator
 
 All of the user stories above were tested on small, medium and large devices. All user stories were fully functional at time of writing.
 
-## **Further testing**
+## **Additional testing**
 
 The HTML code for both index.html & confirmation.html were tested using the [W3C HTML Validator](https://validator.w3.org/)
 * The results can be seen [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/HTML-validator-results.pdf)
@@ -241,12 +241,15 @@ The HTML code for both index.html & confirmation.html were tested using the [W3C
 The CSS code in the style.css file was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CSS-validator-results.pdf)
 
-Testing was conducted on Chrome throughout, and on Firefox, Safari and Microsoft Edge at the testing stage. No bugs except for two were noticed, which are listed below.
+Testing was conducted on Chrome throughout, and on Firefox, Safari, Microsoft Edge and iOS at the final testing stage.
+Family members and friends with various devices assisted in testing the deployed site and reported no serious bugs.
+There was one issue which seems to have resolved itself when viewing on an iPhone 8. The scroll prompt feature was appearing on top of the call to action button on the landing page, 
+
+see [here]()
 
 ### **Unresolved Bugs**
 
 When viewing the site on an iPhone 8, the scroll prompt feature appears on top of the other content of the landing section. This issue is not present when viewing on other mobile devices tested, and does not appear on Chrome Developer Tools.
-As this feature is a scroll prompt, and does not contain any text or images, then it can 
 
 
 
