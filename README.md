@@ -35,13 +35,13 @@ Research for this project began with conducting user interviews. Attempts were m
 For _user interviews_ [Google](http://google.com) was used to search for software development recruitment agencies/software companies in Ireland.
 Out of 10 queries sent, one response was received from Míchéal O’Maoldomhnaigh, the Managing Director of [Software Placements](https://softwareplacements.ie/)[.]()
 
-Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Gmail%20-%20RE_%20Contact%20form%20enquiry%20from%20Fiachra%20Holland.pdf) Analysis of the interview can be found in the analysis section below.
+Míchéal was happy to answer questions about the hiring process and a telephone interview was conducted on 09/02/21. The email thread confirming the interview can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/gmail-re-contact-form-enquiry-from-fiachra-holland.pdf) Analysis of the interview can be found in the analysis section below.
 
 For _competitor interviews_, queries were sent to various owners of sites from the following links:
 * [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 * [10 Full Stack Web Developer Portfolio to Inspire You](https://tamuk.quickstart.com/blog/10-full-stack-web-developer-portfolio-to-inspire-you/)
 
-One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Gmail%20-%20Competitor%20Interview.pdf)
+One response was received from Mathieu Schatzler, the creative director of the site [Wokine](https://www.wokine.com/)[.]() The email thread with Mathieu can be found [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/gmail-competitor-interview.pdf)
 
 **Research Analysis**
 
@@ -104,20 +104,21 @@ The _competitor interview_ with Mathieu Schatzler ultimately did not take place 
 As this site is one continuous page, one wireframe mockup per device - small, medium & large was created. The deployed site varied in a number of ways
 from the wireframes. Throughout the project certain smaller aspects of the wireframes were found to be be not aesthetically pleasing, mainly the background colour going from staggered gray and white, to continuous gray in the finished project,
 also the footer was given more sections and information.
-* [Small Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Iphone%20Wireframe.png?raw=true)
-* [Medium Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Ipad%20Wireframe.png?raw=true)
-* [Large Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Desktop%20Wireframe.png?raw=true)
+* [Small Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/iphone-wireframe.png?raw=true)
+* [Medium Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/ipad-wireframe.png?raw=true)
+* [Large Device](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/desktop-wireframe.png?raw=true)
 
 # **Design**
 
 ### **Colour Scheme**
 
-The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Colour-hex.pdf) hex palette. The white sections of the site ie the paragraphs etc are an off white rather that pure white, this
+The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/colour-hex.pdf) hex palette. The white sections of the site ie the paragraphs etc are an off white rather that pure white, this
 was decided upon to avoid a stark contrast between the elements.
 
 ### **Typography** 
 
-Three fonts were used in the construction of the site. The fonts - Lobster, Poppins and Quattrocento were taken from Google Fonts. Lobster was used only for the navbar logo portion to make it unique, 
+Three fonts were used in the construction of the site. The fonts - [Lobster](https://fonts.google.com/specimen/Lobster?preview.text_type=custom), [Poppins](https://fonts.google.com/specimen/Poppins?preview.text_type=custom) and [Quattrocento](https://fonts.google.com/specimen/Quattrocento?preview.text_type=custom) were taken from 
+[Google Fonts](https://fonts.google.com/). Lobster was used only for the navbar logo portion to make it unique, 
 Poppins was used for heading and buttons, and Quattrocento was used for paragraphs.
 
 ### **Images** 
@@ -154,9 +155,7 @@ are linked to [example.com](http://example.com/)
     as a source and leave it up to whom it concerns to determine if the code is significantly similar to warrant accreditation. If this is the case, then full credit goes to the author [MDB- just code it](https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA) where applicable.
 
 
-* The contact form - this feature is intended for the user to contact the site owner. During the preparation call with the course mentor Dick Vlaanderen, Dick advised that as there was no
-JavaScript in the milestone 1 project, that the contact form would not be able to me made full functional. Dicks advice, with the aim of providing a positive user experience, was to create a separate
-page called confirmation.html which the _submit_ button of the form would link to. The confirmation page has a message informing the user that the submission is successful and that the site owner will
+* The contact form - this feature is intended for the user to contact the site owner. Once all fields have been filled out correctly by the user and clicks _submit_ the page links to a confirmation page. The confirmation page has a message informing the user that the submission is successful and that the site owner will
 be in touch with them shortly. The confirmation page has a redirect function in the head tag which redirects to the main index.html page after 10 seconds.
 
 * The footer - this feature is at the bottom of the page and has three sections: about, social-links, and a section that has a link to a downloadable CV. The footer is designed to be responsive and goes from
@@ -191,28 +190,26 @@ three full width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 * [Autoprefixer](https://autoprefixer.github.io/) was used to automatically add any required prefixes for the CSS stylesheet.
 * [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/) was used to create the table of contents in the readme file.
 
-GitHub Wiki TOC generator
-
 # **Testing**
 
 ## **User Stories Testing**
 
 1. As a user visiting the site for the first time, I want to be able to intuitively navigate the website from anywhere in the site
-    * User can navigate the site using the [navigation bar](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Navigation.png?raw=true). The navigator was tested on several various screen 
+    * User can navigate the site using the [navigation bar](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/navigation.png?raw=true). The navigator was tested on several various screen 
     sizes and all were functional at time of writing
 1. As a potential employer, I want to be able to view the site owners skills, work history and previous projects to help me determine if this person would be a good fit for my business.
-    * User can load webpage, go to the _about_ section to view [skills](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Skills.png?raw=true) can be viewed via the downloadable CV
-    and [previous projects](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Projects.png?raw=true) can be seen in the projects section.
+    * User can load webpage, go to the _about_ section to view [skills](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/skills.png?raw=true) can be viewed via the downloadable CV
+    and [previous projects](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/projects.png?raw=true) can be seen in the projects section.
 
 1. As a potential employer, I want to know if this person is currently employed.
-    * User can check the site owners [CV](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Work%20experience-Employment%20status.png?raw=true) and see that they are currently employed or not.
+    * User can check the site owners [CV](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/work-experience-employment-status.png?raw=true) and see that they are currently employed or not.
     
 1. As a potential employer, I want to be able to see the site owners repo files for previous projects to assess their organizational and workflow skills.
     * Users can go to the projects section on the site. There they will find the users previous projects and the links to the deployed sites & their respective 
-    [repo files](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/GitHub%20Repo.png?raw=true) underneath in the form of a button style link.
+    [repo files](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-repo.png?raw=true) underneath in the form of a button style link.
 
 1. As a potential employer, I want to be able to contact the site owner to discuss employment.
-    * Users can go to the [contact](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Contact.png?raw=true) section and enter their name, email address and their project description/query. 
+    * Users can go to the [contact](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/contact.png?raw=true) section and enter their name, email address and their project description/query. 
     Contact can also me made via the social links in the footer.
 
 1. As a potential employer, I want to be able to download a copy of the site owners CV.
@@ -223,11 +220,11 @@ GitHub Wiki TOC generator
     * Users can determine this from reading the [Bio](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/charity.png?raw=true) section on the _about_ page.
 
 1. As a potential collaborator, I want to be able to view the site owners social links to keep up to date with their work/projects.
-    * Users can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Social.png?raw=true).
+    * Users can go to the footer to source the site owners [social links](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/social.png?raw=true).
 
 1. As a general user, I want to get feedback on any form submissions on the site to confirm contact has been successful.
     * Users can submit their query into the form in the contact section. Once they have clicked _submit_ they will be given a message that their 
-    [form has been submitted](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/Confirmation.png?raw=true)
+    [form has been submitted](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/confirmation.png?raw=true)
      and will be redirected
     to the main page after 10 seconds.
 
@@ -236,10 +233,10 @@ All of the user stories above were tested on small, medium and large devices. Al
 ## **Additional testing**
 
 The HTML code for both index.html & confirmation.html were tested using the [W3C HTML Validator](https://validator.w3.org/)
-* The results can be seen [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/HTML-validator-results.pdf)
+* The results can be seen [here.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/html-validator-results.pdf)
 
 The CSS code in the style.css file was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-* The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CSS-validator-results.pdf)
+* The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/css-validator-results.pdf)
 
 Testing was conducted on Chrome throughout, and on Firefox, Safari, Microsoft Edge and iOS at the final testing stage.
 Family members and friends with various devices assisted in testing the deployed site and reported no serious bugs.
