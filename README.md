@@ -1,3 +1,36 @@
+- [**Fiachra Holland - Portfolio**](#--fiachra-holland---portfolio--)
+  * [**UX**](#--ux--)
+    + [**Project Research**](#--project-research--)
+      - [**Research Analysis**](#--research-analysis--)
+    + [**Specific expected users & their goals**](#--specific-expected-users---their-goals--)
+    + [**User stories**](#--user-stories--)
+    + [**Wireframe Files**](#--wireframe-files--)
+  * [**Design**](#--design--)
+    + [**Colour Scheme**](#--colour-scheme--)
+    + [**Typography**](#--typography--)
+    + [**Images**](#--images--)
+  * [**Features**](#--features--)
+    + [**Existing Features**](#--existing-features--)
+    + [**Features to be implemented in the future**](#--features-to-be-implemented-in-the-future--)
+  * [**Technologies Used**](#--technologies-used--)
+    + [**Languages**](#--languages--)
+    + [**Frameworks and Libraries**](#--frameworks-and-libraries--)
+  * [**Testing**](#--testing--)
+    + [**User Stories Testing**](#--user-stories-testing--)
+    + [**Additional testing**](#--additional-testing--)
+      - [**Ongoing Bugs**](#--ongoing-bugs--)
+  * [**Deployment**](#--deployment--)
+    + [**GitHub Pages**](#--github-pages--)
+    + [**Forking the published GitHub repository**](#--forking-the-published-github-repository--)
+    + [**Cloning the published GitHub repository**](#--cloning-the-published-github-repository--)
+  * [**Credits**](#--credits--)
+    + [**Images**](#--images---1)
+    + [**Code**](#--code--)
+    + [**Acknowledgements**](#--acknowledgements--)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # **Fiachra Holland - Portfolio**
 
 A portfolio site for a full-stack web developer based in Ireland.
@@ -239,6 +272,16 @@ The CSS code in the style.css file was tested using the [W3C CSS Validator](http
 
 Testing was conducted on [Google Chrome](https://www.google.com/intl/en_ie/chrome/) throughout, and on [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/), [Microsoft Edge](https://www.microsoft.com/en-us/edge) and [iOS](https://www.apple.com/ie/ios/ios-14/) at the final testing stage.
 Family members and friends with various devices assisted in testing the deployed site and reported no serious bugs.
+
+#### **Ongoing Bugs**
+
+There was only one major bug that was not resolved on the site. The navbar collapses on mobile devices as expected and the links are all functional. However, when clicking a link in mobile mode the menu does not automatically close and the user must close the menu manually to be able to see the page underneath in full.
+Multiple attemps were made to resolve this, by going over the Bootstrap 5 documentation multiple times, by trying to implement JavaScript to close the menu however no solution was found by the time the project deadline came around.
+Attemps were made to get assistance from the Slack community but nobody was able to assist, I also spoke to the tutors on the course and they advised me that this must be what Bootstrap does in v5.0.0-beta2 and that grades would not be deducted as long as the code was correct. 
+
+This may not be the case however it is noted here for clarity. It would seem likely that at the time of writing there is a bug in the v5.0.0-beta2 of Bootstrap which is preventing this issue from being resolved. 
+Reverting to an older version was not possible as the terms are slighly different and created more problems than it solved when it was tested.
+
 
 ## **Deployment**
 ---
