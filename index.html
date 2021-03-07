@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Fiachra Holland - Portfolio</title>
     <link rel="shortcut icon" type="image/jpg" href="assets/images/FH_Favicon.png"/>
@@ -130,7 +129,7 @@
         </div>
     </section>
 
-    <!-- Projects - README.md file contains link to tutorail which assisted in development of this section-->
+    <!-- Projects - README.md file contains link to tutorial which assisted in development of this section-->
     <section class="projects" id="projects">
             <h1 class="uppercase mb-5">Projects</h1>
             <div class="container-fluid">
@@ -147,7 +146,7 @@
                 </div>
                 <div class="col-md-6">
                   <img src="assets/images/david-hofmann-dancer-unsplash.jpg" alt="Project image 3" class="img-fluid thumbnail" >
-                  <a href="http://example.com/" class="btn" target="_blank">View Website</a>
+                  <a href="http://example.com/" class="btn" target="_blank aria-label=">View Website</a>
                   <a href="http://example.com/" class="btn" target="_blank">View GitHub Repo</a>
                 </div>
                 <div class="col-md-6">
@@ -232,11 +231,17 @@
                         <i class="fa fa-download" aria-hidden="true"></i>
                     </a>
                 </p>
-                
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f232718317.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".nav-link").click(function(event) {
+                $(".navbar-collapse").collapse('hide');
+             });
+        });
+    </script>
 </body>
 </html>

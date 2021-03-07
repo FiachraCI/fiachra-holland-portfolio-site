@@ -1,35 +1,3 @@
-- [**Fiachra Holland - Portfolio**](#--fiachra-holland---portfolio--)
-  * [**UX**](#--ux--)
-    + [**Project Research**](#--project-research--)
-      - [**Research Analysis**](#--research-analysis--)
-    + [**Specific expected users, their goals & user stories**](#--specific-expected-users--their-goals---user-stories--)
-    + [**User stories**](#--user-stories--)
-    + [**Wireframe Files**](#--wireframe-files--)
-  * [**Design**](#--design--)
-    + [**Colour Scheme**](#--colour-scheme--)
-    + [**Typography**](#--typography--)
-    + [**Images**](#--images--)
-  * [**Features**](#--features--)
-    + [**Existing Features**](#--existing-features--)
-    + [**Features to be implemented in the future**](#--features-to-be-implemented-in-the-future--)
-  * [**Technologies Used**](#--technologies-used--)
-    + [**Languages**](#--languages--)
-    + [**Frameworks and Libraries**](#--frameworks-and-libraries--)
-  * [**Testing**](#--testing--)
-    + [**User Stories Testing**](#--user-stories-testing--)
-    + [**Additional testing**](#--additional-testing--)
-  * [**Deployment**](#--deployment--)
-    + [**GitHub Pages**](#--github-pages--)
-    + [**Forking the published GitHub repository**](#--forking-the-published-github-repository--)
-    + [**Cloning the published GitHub repository**](#--cloning-the-published-github-repository--)
-  * [**Credits**](#--credits--)
-    + [**Images**](#--images---1)
-    + [**Code**](#--code--)
-    + [**Acknowledgements**](#--acknowledgements--)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 # **Fiachra Holland - Portfolio**
 
 A portfolio site for a full-stack web developer based in Ireland.
@@ -91,7 +59,7 @@ and the goal of completing the profile is to direct traffic to the website and v
 The _competitor interview_ with Mathieu Schatzler ultimately did not take place as Mathieu did not respond in time.
 
 
-### **Specific expected users, their goals & user stories**
+### **Specific expected users & their goals**
 
 **The kind of users expected to visit this website are as follows:**
 * Recruitment agencies
@@ -141,7 +109,7 @@ also the footer was given more sections and information.
 
 ### **Colour Scheme**
 
-The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/colour-hex.pdf) hex palette. The white sections of the site ie the paragraphs etc are off-white rather than pure white, this
+The colour scheme was based around [this](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/colour-hex.pdf) hex palette. The white sections of the site for example the paragraphs, are off-white rather than pure white, this
 was decided upon to avoid a stark contrast between the elements.
 
 ### **Typography** 
@@ -277,33 +245,33 @@ Family members and friends with various devices assisted in testing the deployed
 
 ### **GitHub Pages**
 
-The project was deployed to [GitHub Pages]() using the following method:
+The project was deployed to [GitHub Pages](https://pages.github.com/) using the following method:
 
-1. [Login]() to [GitHub.]()
-1. Locate your desired [repository.]()
-1. Click [settings]() on the top of the repository.
-1. Scroll down until you see [GitHub Pages.]()
-1. In the _source_ section, select the [master branch]() and click [save.]()
-1. If successful the page will refresh, scroll down again to the GitHub Pages section to confirm. You should see a [confirmation message]() with the new published URL.
+1. [Login](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-sign-in.png?raw=true) to [GitHub.]()
+1. Locate your desired [repository.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-locate-repo.png?raw=true)
+1. Click [settings](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-setting.png?raw=true) on the top of the repository.
+1. Scroll down until you see [GitHub Pages.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-pages.png?raw=true)
+1. In the _source_ section, select the [master branch](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-master.png?raw=true) and click [save.](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-save.png?raw=true)
+1. If successful the page will refresh, scroll down again to the GitHub Pages section to confirm. You should see a [confirmation message](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-published.png?raw=true) with the new published URL.
 
 ### **Forking the published GitHub repository**
 
 1. Repeat steps 1 & 2 from above.
-1. Locate the [fork]() option in the top-right hand corner of the repository page.
-1. You will be asked where you want to fork it too if successful, see [here]() for example.
+1. Locate the [fork](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-fork.png?raw=true) option in the top-right hand corner of the repository page.
+1. You will be asked where you want to fork it too if successful, see [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/fork-where-to.png?raw=true) for example.
 
 ### **Cloning the published GitHub repository**
 
 1. Repeat steps 1 & 2 from above.
-1. Click on the [code]() option on the top of the repository page.
-1. Copy the [URL]() under the HTTPS tab.
+1. Click on the [code](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/github-code.png?raw=true) option on the top of the repository page.
+1. Copy the [URL](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/clone-url.png?raw=true) under the HTTPS tab.
 1. Consult your code editor of choice's documentation for cloning from GitHub to complete the process.
 
 ## **Credits**
 ---
 
 ### **Images**
-[Unsplash]() was utilized for the two background images in the landing and about sections.
+[Unsplash]() was utilized for all images used on the site.
 * Credit goes to [Shyam](https://unsplash.com/@thezenoeffect) for the landing section background image. 
 * Credit goes to [Calvin Weibel](https://unsplash.com/@calvinweibel) for the about section background image.
 * Credit goes to [Scott Webb](https://unsplash.com/@scottwebb) for the project 1 image.
@@ -318,13 +286,13 @@ All code except for the mentions directly below were written entirely by the dev
 
 Credit for the scroll prompt feature on the landing page goes to [WEB CIFAR.](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
 
-Credit where applicable goes to [MDB- just code it](https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA) for Bootstrap tutorials specifically with regards to the projects section.
+Credit where applicable goes to [MDB - just code it](https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA) for Bootstrap tutorials specifically with regards to the projects section.
 
 ### **Acknowledgements**
 
 Special thanks go to my mentor Dick Vlaanderen
 
-Special thanks to the [Slack]() community for assistance and guidance throughout the project.
+Special thanks to the [Slack](https://slack.com/intl/en-ie/) community for assistance and guidance throughout the project.
 
 
 
