@@ -18,7 +18,7 @@
   * [Languages](#languages)
   * [Frameworks and Libraries](#frameworks-and-libraries)
 - [Testing](#testing)
-  * [User Stories Testing](#--user-stories-testing)
+  * [User Stories Testing](#user-stories-testing)
   * [Additional testing](#additional-testing)
     + [Ongoing Bugs](#ongoing-bugs)
 - [Deployment](#deployment)
