@@ -225,7 +225,7 @@ three full-width columns stacked vertically up to the _sm_ Bootstrap breakpoint,
 # Testing
 
 
-## **User Stories Testing
+## User Stories Testing
 
 1. As a user visiting the site for the first time, I want to be able to intuitively navigate the website from anywhere on the site
     * User can navigate the site using the [navigation bar](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/navigation.png?raw=true). The navigator was tested on several various screen 
