@@ -241,11 +241,12 @@ The HTML code for both index.html & confirmation.html were tested using the [W3C
 The CSS code in the style.css file was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * The results can be seen [here](https://github.com/FiachraCI/fiachra-holland-portfolio-site/blob/master/wireframes/CSS-validator-results.pdf)
 
-Testing was conducted on Chrome throughout, and on Firefox, Safari and Microsoft Edge at the testing stage. No bugs except for ??? were noticed.
+Testing was conducted on Chrome throughout, and on Firefox, Safari and Microsoft Edge at the testing stage. No bugs except for two were noticed, which are listed below.
 
 ### **Unresolved Bugs**
 
-The 
+When viewing the site on an iPhone 8, the scroll prompt feature appears on top of the other content of the landing section. This issue is not present when viewing on other mobile devices tested, and does not appear on Chrome Developer Tools.
+As this feature is a scroll prompt, and does not contain any text or images, then it can 
 
 
 

@@ -15,24 +15,24 @@
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">Fiachra Holland</a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Burger">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Burger" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="Burger">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#landing" class="nav-link">Home</a>
+                        <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse"> 
+                            <a href="#landing" class="nav-link page-scroll">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
+                        <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
+                            <a href="#about" class="nav-link page-scroll">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link">Projects</a>
+                        <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
+                            <a href="#projects" class="nav-link page-scroll">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
+                        <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
+                            <a href="#contact" class="nav-link page-scroll">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
                             <a href="assets/cv/CV.FH.pdf" class="nav-link" target="_blank" aria-label="Link to a copy of my downloadable CV in PDF format (opens in a new tab)">CV</a>
                         </li>
                     </ul>
@@ -175,11 +175,11 @@
         <div class="container-lg">
             <div class="row">
                 <div class="col">
-                    <form>
-                        <input type="text" id="yourname" name="name" placeholder="Your name" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <textarea name="textarea" id="textarea" placeholder="Project description" required></textarea>
-                        <a class="btn mt-5" href="confirmation.html" role="button">Submit</a>
+                    <form action="confirmation.html">
+                        <input type="text" id="yourname" name="name" placeholder="Your name" required="">
+                        <input type="email" id="email" name="email" placeholder="Email" required="">
+                        <textarea name="textarea" id="textarea" placeholder="Project description" required=""></textarea>
+                        <button class="btn mt-4" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
